@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disappering Ninja</title>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1>jQuery - Disappering Ninja</h1>
+    <table>
+        <tr>
+            <td>
+                <img class="hide" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ72lJoyZ_MlsUPSG0J6gOvOV_5eVeRbyN65g&usqp=CAU" alt="Oops we are missing Scorpion">
+            </td>
+            <td>
+                <img class="hide" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ72lJoyZ_MlsUPSG0J6gOvOV_5eVeRbyN65g&usqp=CAU" alt="Oops we are missing Scorpion">
+            </td>
+            <td>
+                <img class="hide" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ72lJoyZ_MlsUPSG0J6gOvOV_5eVeRbyN65g&usqp=CAU" alt="Oops we are missing Scorpion">
+            </td>
+            <td>
+                <img class="hide" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ72lJoyZ_MlsUPSG0J6gOvOV_5eVeRbyN65g&usqp=CAU" alt="Oops we are missing Scorpion">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img class="hide" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ72lJoyZ_MlsUPSG0J6gOvOV_5eVeRbyN65g&usqp=CAU" alt="Oops we are missing Scorpion">
+            </td>
+            <td>
+                <img class="hide" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ72lJoyZ_MlsUPSG0J6gOvOV_5eVeRbyN65g&usqp=CAU" alt="Oops we are missing Scorpion">
+            </td>
+            <td>
+                <img class="hide" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ72lJoyZ_MlsUPSG0J6gOvOV_5eVeRbyN65g&usqp=CAU" alt="Oops we are missing Scorpion">
+            </td>
+            <td>
+                <img class="hide" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ72lJoyZ_MlsUPSG0J6gOvOV_5eVeRbyN65g&usqp=CAU" alt="Oops we are missing Scorpion">
+            </td>
+        </tr>
+    </table>
+    <button>Restore</button>
+</body>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('img').click(function(){
+            $(this).hide()
+        })
+        $('button').click(function(){
+            $('img').show()
+        })
+    })
+</script>
+<style type="text/css">
+    .white {
+        color: whitesmoke;
+    }
+    img{
+        border: 5px solid black;
+        margin: 10px;
+    }
+    button{
+        background-color: green;
+        color: whitesmoke;
+        margin: 13px;
+        font-size: large;
+    }
+</style>
+</html>
